@@ -6,6 +6,7 @@ const NavBar = () => {
   const navLinks = (
     <>
       <NavLink
+      to={"/"}
         className={({ isActive }) =>
           isActive
             ? "text-[#12F7D6] font-normal text-2xl btn btn-ghost"

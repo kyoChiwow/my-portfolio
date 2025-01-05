@@ -7,15 +7,8 @@
     "liveLink": "https://assginments-2e056.web.app",
     "githubClient": "https://github.com/programming-hero-web-course2/b10-a10-client-side-kyoChiwow",
     "githubServer": "https://github.com/programming-hero-web-course2/b10-a10-server-side-kyoChiwow",
-    "technologyStack": [
-      "React.js",
-      "Tailwind CSS",
-      "DaisyUI",
-      "Firebase Authentication",
-      "Firebase Database",
-      "Vite",
-      "Firebase Hosting"
-    ]
+    "technologyStack": "React.js, Tailwind CSS, DaisyUI, Firebase Authentication, Firebase Database, Vite, Firebase Hosting"
+    
   },
   {
     "id": 2,
@@ -25,38 +18,17 @@
     "liveLink": "https://assignment-11-ebe19.web.app",
     "githubClient": "https://github.com/programming-hero-web-course2/b10a11-client-side-kyoChiwow",
     "githubServer": "https://github.com/programming-hero-web-course2/b10a11-server-side-kyoChiwow",
-    "technologyStack": [
-      "React.js",
-      "Tailwind CSS",
-      "DaisyUI",
-      "Firebase Authentication",
-      "Firebase Database",
-      "Axios",
-      "React Router",
-      "Lottie-React",
-      "React Icons",
-      "Vite"
-    ]
+    "technologyStack": "React.js, Tailwind CSS, DaisyUI, Firebase Authentication, Firebase Database, Axios, React Router, Lottie-React, React Icons, Vite"
+    
   },
   {
     "id": 3,
     "image": "https://i.ibb.co.com/Y0SG5M7/Project3.png",
     "name": "Bistro Boss Restaurant",
-    "description": "Bistro Boss Restaurant website is meant for restaurant management and online orders. This particular project gave me a lot of new things to learn as in this was the first big full stack project that I did. When I was building this website, I found that in the earlier projects I was repeating codes alot and that costs me alot of time, so in this project I tried to avoid that and use hooks and tanstack query to avoid those. If you go to the live link you might see that some of the functionalities might not work thats because this is a work in progress. I just though I should mention this here as in this is my first big project.",
+    "description": "Bistro Boss Restaurant website is meant for restaurant management and online orders. This particular project gave me a lot of new things to learn as in, this was the first big full stack project that I did. When I was building this website, I found that in the earlier projects I was repeating codes alot and that costs me alot of time, so in this project I tried to avoid that and use hooks and tanstack query to avoid those. If you go to the live link you might see that some of the functionalities might not work thats because this is a work in progress. I just though I should mention this here as in this is my first big project.",
     "liveLink": "https://mile9pro4.web.app",
     "githubClient": "https://github.com/kyoChiwow/Bistro-Restaurant-Client-Side",
     "githubServer": "https://github.com/kyoChiwow/Bistro-Restaurant-Server-Side",
-    "technologyStack": [
-      "React.js",
-      "Tailwind CSS",
-      "DaisyUI",
-      "Firebase Authentication",
-      "Firebase Database",
-      "Axios",
-      "React Router",
-      "Lottie-React",
-      "React Icons",
-      "Vite"
-    ]
+    "technologyStack": "React.js, Tailwind CSS, DaisyUI, Firebase Authentication, Firebase Database, Axios, React Router, Lottie-React, React Icons, Vite"
   }
 ]
