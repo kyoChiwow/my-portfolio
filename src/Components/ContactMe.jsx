@@ -42,7 +42,7 @@ const ContactMe = () => {
       {/* Header div */}
 
       {/* Send a message box div */}
-      <div className="border-2 border-[#12F7D6] rounded-tl-[50px] rounded-br-[50px] mt-[100px] max-w-[25%] mx-auto">
+      <div className="border-2 border-[#12F7D6] rounded-tl-[50px] rounded-br-[50px] mt-[100px] max-w-[90%] lg:max-w-[25%] mx-auto">
         <h1 className="text-[#12F7D6] text-[32px] font-medium px-10 py-4 text-center">
           Send Me A Message
         </h1>
@@ -56,8 +56,8 @@ const ContactMe = () => {
           className="mt-16 max-w-[90%] xl:max-w-[60%] mx-auto"
         >
           {/* name and email field */}
-          <div className="flex gap-10">
-            <div className="flex flex-col gap-4 xl:w-[48%]">
+          <div className="flex flex-col lg:flex-row gap-10">
+            <div className="flex flex-col gap-4 lg:w-[48%]">
               <span className="text-base font-normal text-[#12F7D6]">
                 Your Name*
               </span>
@@ -69,7 +69,7 @@ const ContactMe = () => {
               />
             </div>
 
-            <div className="flex flex-col gap-4 xl:w-[48%]">
+            <div className="flex flex-col gap-4 lg:w-[48%]">
               <span className="text-base font-normal text-[#12F7D6]">
                 Your Email*
               </span>
