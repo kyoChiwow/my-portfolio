@@ -1,5 +1,7 @@
 import AboutMe from "../../Components/AboutMe";
 import Banner from "../../Components/Banner";
+import ContactMe from "../../Components/ContactMe";
+import Footer from "../../Components/Footer";
 import NavBar from "../../Components/NavBar";
 import Projects from "../../Components/Projects";
 import Skills from "../../Components/Skills";
@@ -45,7 +47,17 @@ const Home = () => {
           <Projects></Projects>
         </div>
         {/* Projects section div here */}
+
+        {/* Contact me section */}
+        <div className="bg-[#292F36] bg-no-repeat bg-cover ">
+          <ContactMe></ContactMe>
+        </div>
+        {/* Contact me section */}
       </main>
+
+      <footer className="bg-[#292F36] border-t-2 border-[#43454D]">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 };
