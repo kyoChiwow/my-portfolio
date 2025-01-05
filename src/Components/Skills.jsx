@@ -7,10 +7,11 @@ import nodeLogo from "../assets/images/nodeIcon.png";
 import expressLogo from "../assets/images/expressIcon.png";
 import mongoLogo from "../assets/images/mongoIcon.png";
 import Marquee from "react-fast-marquee";
+import "./Skills.css"
 
 const Skills = () => {
   return (
-    <div className="py-[128px]">
+    <div className="py-[128px] featured-item">
       {/* Header div */}
       <div className="text-center">
         <h1 className="xl:text-[64px] text-[32px] text-[#12F7D6] font-normal">
@@ -22,38 +23,38 @@ const Skills = () => {
       {/* Skills scroll div here */}
       <div className="mt-16 max-w-[90%] mx-auto">
         <Marquee speed={50} gradient={false} pauseOnHover={true}>
-          <div className="flex justify-between gap-[100px] items-center">
-            <div>
+          <div className="flex justify-between gap-5 md:gap-[100px] items-center">
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={htmlLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">HTML</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={cssLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">CSS</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={jsLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">JS</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={reactLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">React</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={firebaseLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">Firebase</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[80px] h-[80px]" src={nodeLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">NodeJs</p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center">
               <img className="w-[150px] h-[80px]" src={expressLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">
                 ExpressJs
               </p>
             </div>
-            <div>
+            <div className="flex md:flex-col gap-1 items-center md:mr-[100px]">
               <img className="w-[80px] h-[80px]" src={mongoLogo} alt="" />
               <p className="font-medium text-[32px] text-[#12F7D6]">MongoDb</p>
             </div>

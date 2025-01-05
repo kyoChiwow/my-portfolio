@@ -41,9 +41,9 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="py-8">
+    <div>
       {/* Navbar Wrapping div */}
-      <div className="navbar">
+      <div className="navbar bg-[#151515] bg-opacity-50 fixed z-10">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">

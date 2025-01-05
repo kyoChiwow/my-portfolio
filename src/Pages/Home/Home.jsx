@@ -1,6 +1,7 @@
 import AboutMe from "../../Components/AboutMe";
 import Banner from "../../Components/Banner";
 import NavBar from "../../Components/NavBar";
+import Projects from "../../Components/Projects";
 import Skills from "../../Components/Skills";
 
 const Home = () => {
@@ -34,10 +35,16 @@ const Home = () => {
         {/* About me section div here */}
 
         {/* Skills section div here */}
-        <div className="bg-[url('/src/assets/images/skillsBg.png')] bg-no-repeat bg-cover">
+        <div className="bg-[url('/src/assets/images/codingBg.jpg')] bg-no-repeat bg-cover">
           <Skills></Skills>
         </div>
         {/* Skills section div here */}
+
+        {/* Projects section div here */}
+        <div className="bg-[url('/src/assets/images/projectBg.png')] bg-no-repeat bg-cover">
+          <Projects></Projects>
+        </div>
+        {/* Projects section div here */}
       </main>
     </div>
   );
