@@ -1,12 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import navLogo from "../assets/images/logo.png";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
   const navLinks = (
     <>
       <NavLink
-      to={"/"}
+        to={"/"}
         className={({ isActive }) =>
           isActive
             ? "text-[#12F7D6] font-normal text-2xl btn btn-ghost"
@@ -47,7 +48,11 @@ const NavBar = () => {
       <div className="navbar bg-[#151515] bg-opacity-50 fixed z-10">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
+            <label
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden text-white"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -72,16 +77,24 @@ const NavBar = () => {
           </div>
           <NavLink to={"/"} className="btn btn-ghost text-white">
             <img src={navLogo} alt="" />
-            <span className="xl:block hidden font-medium text-[32px] ml-4">Shafiqul Islam</span>
+            <span className="xl:block hidden font-medium text-[32px] ml-4">
+              Shafiqul Islam
+            </span>
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-6">
-            {navLinks}
-          </ul>
+          <ul className="menu menu-horizontal px-1 gap-6">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <NavLink className={"btn rounded-full bg-[#12F7D6] border-none"}>Hire Me</NavLink>
+          <ScrollLink
+            to="contact-me"
+            smooth={true}
+            duration={500}
+            offset={-100}
+            className="btn rounded-full bg-[#12F7D6] border-none cursor-pointer"
+          >
+            Hire Me
+          </ScrollLink>
         </div>
       </div>
       {/* Navbar Wrapping div */}

@@ -49,7 +49,7 @@ const Home = () => {
         {/* Projects section div here */}
 
         {/* Contact me section */}
-        <div className="bg-[#292F36] bg-no-repeat bg-cover ">
+        <div id="contact-me" className="bg-[#292F36] bg-no-repeat bg-cover ">
           <ContactMe></ContactMe>
         </div>
         {/* Contact me section */}
