@@ -9,7 +9,7 @@ const AboutMe = () => {
       {/* About me left side div */}
       <div>
         {/* About me header */}
-        <div className="border-4 border-[#12F7D6] py-4 px-10 rounded-tl-[60px] rounded-br-[60px] xl:max-w-[31%] bg-[#292F36]">
+        <div className="border-4 border-[#12F7D6] py-4 px-10 rounded-tl-[60px] rounded-br-[60px] xl:max-w-[40%] bg-[#292F36]">
           <h1 className="text-[32px] md:text-[64px] font-normal text-white text-center">
             About Me
           </h1>
