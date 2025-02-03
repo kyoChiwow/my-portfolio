@@ -10,14 +10,14 @@ const NavBar = () => {
         to={"/"}
         className={({ isActive }) =>
           isActive
-            ? "text-[#12F7D6] font-normal text-2xl btn btn-ghost"
-            : "text-white font-normal text-2xl btn btn-ghost"
+            ? "text-[#12F7D6] font-normal text-2xl btn btn-ghost hover:scale-110 transition-all duration-300"
+            : "text-white font-normal text-2xl btn btn-ghost hover:scale-110 transition-all duration-300"
         }
       >
         Home
       </NavLink>
       <Link
-        className="text-white font-normal text-lg flex items-center btn btn-ghost"
+        className="text-white font-normal text-lg flex items-center btn btn-ghost hover:scale-110 transition-all duration-300"
         target="_blank"
         to={"https://github.com/kyoChiwow"}
       >
@@ -25,17 +25,17 @@ const NavBar = () => {
         GitHub
       </Link>
       <Link
-        className="text-white font-normal text-lg flex items-center btn btn-ghost"
+        className="text-white font-normal text-lg flex items-center btn btn-ghost hover:scale-110 transition-all duration-300"
         target="_blank"
-        to={"https://www.linkedin.com/in/md-shafiqul-islam-87250b158/"}
+        to={"https://www.linkedin.com/in/md-shafiqul-islam-web-dev"}
       >
         <FaLinkedin></FaLinkedin>
         LinkedIn
       </Link>
       <Link
-        className="text-white font-normal text-lg flex items-center btn btn-ghost"
+        className="text-white font-normal text-lg flex items-center btn btn-ghost hover:scale-110 transition-all duration-300"
         target="_blank"
-        to={"https://www.facebook.com/aronnorahman.shawpno/"}
+        to={"https://www.facebook.com/aronnorahman.shawpno"}
       >
         <FaFacebook></FaFacebook>
         Facebook
@@ -90,8 +90,7 @@ const NavBar = () => {
             to="contact-me"
             smooth={true}
             duration={500}
-            offset={-100}
-            className="btn rounded-full bg-[#12F7D6] border-none cursor-pointer"
+            className="btn rounded-full bg-[#12F7D6] border-none cursor-pointer hover:scale-110 transition-all duration-300"
           >
             Hire Me
           </ScrollLink>

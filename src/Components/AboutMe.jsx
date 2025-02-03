@@ -1,7 +1,7 @@
 import { FaEnvelope, FaSuitcase } from "react-icons/fa";
 import { IoMdPin } from "react-icons/io";
-import circlePic from "../assets/images/profilePic.png"
 import { Link } from "react-router-dom";
+import circlePic from "../assets/images/profilePic.png";
 
 const AboutMe = () => {
   return (
@@ -19,7 +19,21 @@ const AboutMe = () => {
         {/* About me paragraph div */}
         <div className="bg-[#292F36] p-10 mt-16 rounded-[40px]">
           <p className="text-[32px] font-medium text-[#12F7D6]">Hello!</p>
-          <p className="text-base font-normal text-white">My name is Shafiqul Islam, I specialize in Front-End Web Development that utilizes HTML, CSS, JS, REACT, TAILWIND etc. I am a highly motivated individual and an optimist dedicated to writing clear, concise, robust code that works. I always strive to never stop learning and improving. When I am not coding, I play RPG games, a little while back I was heavily into competitive esports. But since the Esports scene in South Asia is still in an infant stage I decided to pour all of that passion into Coding as it gives me the same thrill of a winning a tournament. Coding has been a very interesting journey for me, I never actually thought I would find fun in coding and thrive on the challenges it presents. So, here I am looking for new projects and new challenges, if you like my journey so far dont be shy to hire or contact me!</p>
+          <p className="text-base font-normal text-white">
+            My name is Shafiqul Islam, I specialize in Front-End Web Development
+            that utilizes HTML, CSS, JS, REACT, TAILWIND etc. I am a highly
+            motivated individual and an optimist dedicated to writing clear,
+            concise, robust code that works. I always strive to never stop
+            learning and improving. When I am not coding, I play RPG games, a
+            little while back I was heavily into competitive esports. But since
+            the Esports scene in South Asia is still in an infant stage I
+            decided to pour all of that passion into Coding as it gives me the
+            same thrill of a winning a tournament. Coding has been a very
+            interesting journey for me, I never actually thought I would find
+            fun in coding and thrive on the challenges it presents. So, here I
+            am looking for new projects and new challenges, if you like my
+            journey so far dont be shy to hire or contact me!
+          </p>
         </div>
         {/* About me paragraph div */}
       </div>
@@ -28,66 +42,84 @@ const AboutMe = () => {
       {/* About me right side div */}
       <div>
         {/* Banner left side info div */}
-      <div className="rounded-br-[150px] rounded-tl-[150px] border-4 border-white px-8 py-14">
-        {/* Image div */}
-        <div className="flex justify-center mb-4">
-          <img
-            className="w-[96px] h-[96px] rounded-full object-cover border-4 border-[#12F7D6] bg-base-300"
-            src={circlePic}
-            alt=""
-          />
-        </div>
-        {/* Image div */}
+        <div className="rounded-br-[150px] rounded-tl-[150px] border-4 border-white px-8 py-14">
+          {/* Image div */}
+          <div className="flex justify-center mb-4">
+            <img
+              className="w-[96px] h-[96px] rounded-full object-cover border-4 border-[#12F7D6] bg-base-300"
+              src={circlePic}
+              alt=""
+            />
+          </div>
+          {/* Image div */}
 
-        {/* header div */}
-        <div className="mb-8">
-          <h1 className="text-[32px] font-medium text-white text-center">Shafiqul Islam</h1>
-          <p className="font-normal text-sm mt-2 text-white text-center">
-            Front-End Developer
-          </p>
-        </div>
-        {/* header div */}
-
-        {/* information div */}
-        <div className="mb-8">
-          <div className="mb-4">
-            <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
-              <FaEnvelope></FaEnvelope> kyoayasakicsgo@gmail.com
-            </p>
-            <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
-              <IoMdPin></IoMdPin> Dhaka, Bangladesh
-            </p>
-            <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
-              <FaSuitcase></FaSuitcase> Full-Time Web Developer
+          {/* header div */}
+          <div className="mb-8">
+            <h1 className="text-[32px] font-medium text-white text-center">
+              Shafiqul Islam
+            </h1>
+            <p className="font-normal text-sm mt-2 text-white text-center">
+              Front-End Developer
             </p>
           </div>
+          {/* header div */}
 
-          <div className="flex gap-4">
-            <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg">
-              HTML
+          {/* information div */}
+          <div className="mb-8">
+            <div className="mb-4">
+              <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
+                <FaEnvelope></FaEnvelope> shafiqulislamweb101@gmail.com
+              </p>
+              <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
+                <IoMdPin></IoMdPin> Dhaka, Bangladesh
+              </p>
+              <p className="flex gap-4 text-sm font-normal text-white items-center mb-4">
+                <FaSuitcase></FaSuitcase> Full-Time Web Developer
+              </p>
             </div>
-            <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg">
-              CSS
+
+            <div className="flex gap-4">
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                HTML
+              </div>
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                CSS
+              </div>
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                JS
+              </div>
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                REACT
+              </div>
             </div>
-            <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg">
-              JS
-            </div>
-            <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg">
-              REACT
+            <div className="flex gap-4 mt-4">
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                NextJS
+              </div>
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                ExpressJS
+              </div>
+              <div className="text-[#292F36] text-sm font-normal bg-[#12F7D6] px-2 py-1 rounded-lg hover:scale-105 transition-all duration-300">
+                NodeJS
+              </div>
             </div>
           </div>
-        </div>
-        {/* information div */}
+          {/* information div */}
 
-        {/* Download CV Button */}
-        <Link target="_blank" to={"https://docs.google.com/document/d/15wUdt8GOJMUFUPRtqavjnfHMkTnV8LnJ2A-35bFKl6I/edit?usp=sharing"}>
-          <button className="btn bg-white rounded-full text-xl font-normal">
-            Download CV
-          </button>
-        </Link>
-        {/* Download CV Button */}
-      </div>
-      {/* Banner left side info div */}
+          {/* Download CV Button */}
+          <Link
+            target="_blank"
+            to={
+              "https://drive.google.com/file/d/14j2y7QtpcmBHKGgNd2faCo4owZnJc8Ys/view?usp=sharing"
+            }
+          >
+            <button className="btn bg-white rounded-full text-xl font-normal hover:scale-110 transition-all duration-300">
+              Check Resume
+            </button>
+          </Link>
+          {/* Download CV Button */}
+        </div>
+        {/* Banner left side info div */}
       </div>
       {/* About me right side div */}
     </div>

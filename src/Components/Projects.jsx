@@ -25,7 +25,7 @@ const Projects = () => {
             <SwiperSlide key={idx}>
               <div>
                 <NavLink to={`/viewdetails/${project.id}`}>
-                  <p className="text-center my-8 text-2xl font-normal text-[#12F7D6] border-b-4 max-w-[10%] mx-auto pb-2">
+                  <p className="text-center my-8 text-2xl font-normal text-[#12F7D6] border-b-4 max-w-[50%] md:max-w-[25%] lg:max-w-[19%] xl:max-w-[10%] mx-auto pb-2">
                     View Details
                   </p>
                 </NavLink>
