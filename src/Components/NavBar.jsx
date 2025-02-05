@@ -6,16 +6,6 @@ import { Link as ScrollLink } from "react-scroll";
 const NavBar = () => {
   const navLinks = (
     <>
-      <NavLink
-        to={"/"}
-        className={({ isActive }) =>
-          isActive
-            ? "text-[#12F7D6] font-normal text-2xl btn btn-ghost hover:scale-110 transition-all duration-300"
-            : "text-white font-normal text-2xl btn btn-ghost hover:scale-110 transition-all duration-300"
-        }
-      >
-        Home
-      </NavLink>
       <Link
         className="text-white font-normal text-lg flex items-center btn btn-ghost hover:scale-110 transition-all duration-300"
         target="_blank"
@@ -45,7 +35,7 @@ const NavBar = () => {
   return (
     <div>
       {/* Navbar Wrapping div */}
-      <div className="navbar bg-[#151515] bg-opacity-50 fixed z-10">
+      <div className="navbar bg-[#151515] bg-opacity-50 fixed z-20">
         <div className="navbar-start">
           <div className="dropdown">
             <label
@@ -77,7 +67,7 @@ const NavBar = () => {
           </div>
           <NavLink to={"/"} className="btn btn-ghost text-white">
             <img src={navLogo} alt="" />
-            <span className="xl:block hidden font-medium text-[32px] ml-4">
+            <span className="xl:block hidden font-medium text-[32px] xl:text-[28px] ml-4">
               Shafiqul Islam
             </span>
           </NavLink>

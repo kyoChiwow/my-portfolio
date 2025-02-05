@@ -24,7 +24,7 @@ const Banner = () => {
           <h1 className="md:text-[64px] text-[32px] font-normal text-white">
             A Web Developer.
           </h1>
-          <p className="text-base font-normal text-white my-8">
+          <p className="text-base font-normal text-white my-8 xl:max-w-[70%]">
             I help business grow by crafting amazing web experiences. if you are
             looking for a developer that likes to get stuff done,
           </p>
