@@ -20,7 +20,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="">
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={true} autoplay={true} modules={[Navigation]} className="mySwiper">
           {projects.map((project, idx) => (
             <SwiperSlide key={idx}>
               <div>
