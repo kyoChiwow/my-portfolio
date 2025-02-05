@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { NavLink } from "react-router-dom";
@@ -20,7 +20,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="">
-        <Swiper navigation={true} autoplay={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={true} autoplay={{ delay: 2000, disableOnInteraction: true }} modules={[Navigation, Autoplay]} className="mySwiper">
           {projects.map((project, idx) => (
             <SwiperSlide key={idx}>
               <div>
